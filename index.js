@@ -88,7 +88,7 @@ app.get('/list-apis', (req, res) => {
 
 // Sample route to check if server is running
 app.get('/', (req, res) => {
-  res.send('second commit is running');
+  res.send('first commit is running');
 });
 
 // Load dynamic routes on startup
